@@ -467,11 +467,13 @@ a:focus {
           align-items: center;
   height: 195px;
   border-radius: 5px;
+  padding:100;
 }
 
 .product_section .box .img-box img {
   max-width: 175px;
   max-height: 175px;
+  
 }
 
 .product_section .box .detail-box {
