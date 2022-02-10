@@ -260,11 +260,13 @@
       
         <div class="emptyimage" >
           
-            <div class="img-box" >
-              <img src="https://www.partsformachines.com/images/empty-cart.png">
-            </div>
-
-        </div>
+          <p id="demo"> <img src="https://www.partsformachines.com/images/empty-cart.png"></p>
+          <button id="btn" type="button">Try it</button>
+          <script>
+            document.getElementById('btn').onclick = function() {
+                document.getElementById('demo').innerHTML = '';
+            }
+        </script>
       </div>
     
       <div class="btn-box" >
