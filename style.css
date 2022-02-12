@@ -803,17 +803,16 @@ a:focus {
   background-color: transparent;
   color: #f89646;
 }
-.thanks {
+.Thanx{
+  position: relative;
   color: #f89646;
+  font-family: "Roboto", sans-serif;
   text-align:center;
-  letter-spacing: 2px;
-  line-height: 0.8;
-  word-spacing: 2px;
-  position:relative;
-  bottom: 400px;
-  right: 200px;
-  left: 350px;
- 
+   letter-spacing: 2px;
+  line-height: 1;
+  word-spacing: 2.5px;
+  padding-bottom: 350px;
+  padding-top: 250px;
 }
 /* footer section*/
 .info_section {
