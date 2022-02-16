@@ -803,17 +803,20 @@ a:focus {
   background-color: transparent;
   color: #f89646;
 }
-.Thanx{
-  position: relative;
-  color: #f89646;
-  font-family: "Roboto",sans-serif;
-  text-align:center;
-  letter-spacing: 2px;
-  line-height: 1;
-  word-spacing: 2.5px;
-  padding-bottom: 350px;
-  padding-top: 250px;
-}
+  .Thanx{
+    position:absolute;
+    color: #f89646;
+    font-family: "Roboto", sans-serif;
+    text-align:center;
+    letter-spacing: 2px;
+    line-height: 1;
+    word-spacing: 2.5px;
+    padding-top: 90px;
+    padding-right: 350px;
+    padding-bottom: 50px;
+    padding-left: 400px;
+  }
+
 /* footer section*/
 .info_section {
   background-color: #274035;
