@@ -60,7 +60,7 @@ $result = $con -> query($query);
 print("<br>");
 
 
- $img = "campus1.png";
+ $img = "Section1.png";
 
 if($sql)
 {
