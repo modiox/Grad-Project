@@ -1,7 +1,211 @@
 <!DOCTYPE html>
 <html>
 
+ 
 <head>
+
+
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Smart Mart</title>
+ 
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  </head>
+
+<body>
+
+  <!-- header section strats -->
+  <header class="header_section">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <a class="navbar-brand" href="index.html">
+          <span>Smart mart</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""> </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"> About</a>
+            </li>
+            <div class="dropdown">
+              <form method="post" action="Search.php"> <li onclick="myFunction()" class="dropbtn" class="nav-link">SEARCH</li> 
+              <div id="myDropdown" class="dropdown-content" >
+                <input type="text" placeholder="Search.." id="myInput" name="myInput" onkeyup="filterFunction()"> 
+             </form>
+              </div>
+            </div>
+            
+            <script>
+            /* When the user clicks on the button,
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            function filterFunction() {
+              var input, filter, ul, li, a, i;
+              input = document.getElementById("myInput");
+              filter = input.value.toUpperCase();
+              div = document.getElementById("myDropdown");
+              a = div.getElementsByTagName("a");
+              for (i = 0; i < a.length; i++) {
+                txtValue = a[i].textContent || a[i].innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                  a[i].style.display = "";
+                } else {
+                  a[i].style.display = "none";
+                }
+              }
+            }
+            </script>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <style>
+      /* .parent {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .image1 {
+        position: relative;
+        top: 0;
+        left: 0;
+        border: 1px solid #000000;
+      } */
+      .emptyimage {
+        
+        
+        padding-top: 50px;
+        padding-right: 350px;
+        padding-bottom: 50px;
+        padding-left: 350px;
+        
+      }
+
+      .dropbtn {
+  
+  color: black;
+  padding: 5px; 
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+ padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.styleB{
+  border: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #6ed6a6;
+  color: #ffffff;
+  border-radius: 0px;
+  border: 1px solid #6ed6a6;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  margin-left: 100px;
+}
+/*.dropdown a:hover {background-color: #ddd;}*/
+
+.show {display: block;}
+
+    </style>
+  </header>
+  <!-- end header section -->
+
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container  ">
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="images/about-img.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                About Us
+              </h2>
+            </div>
+            <p>
+             Smart Shopping Cart to make your life easier.. Now shopping is no longer time consuming and is far more enjoyable. You can shop at your own pace with RFID technology. Happy Shopping! </p>
+            <head>
   <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,65 +235,6 @@
   <link href="css/responsive.css" rel="stylesheet" />
 
 </head>
-
-<body>
-
-  <!-- header section strats -->
-  <header class="header_section header_inner">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg custom_nav-container ">
-        <a class="navbar-brand" href="index.html">
-          <span>Smart Mart</span>
-        </a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class=""> </span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav  ml-auto">
-            <li class="nav-item ">
-              <a class="nav-link" href="index.html">Home </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="about.html"> About <span class="sr-only">(current)</span> </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="search.html">Search</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <!-- end header section -->
-
-
-  <!-- about section -->
-
-  <section class="about_section layout_padding">
-    <div class="container  ">
-      <div class="row">
-        <div class="col-md-6 ">
-          <div class="img-box">
-            <img src="images/about-img.png" alt="">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                About Us
-              </h2>
-            </div>
-            <p>
-             Smart Shopping Cart to make your life easier.. Now shopping is no longer time consuming and is far more enjoyable. You can shop at your own pace with RFID technology. Happy Shopping! </p>
-            <a href="">
-              Read More ?
-            </a>
           </div>
         </div>
       </div>
@@ -148,7 +293,7 @@
         <div class="info_logo">
           <a class="navbar-brand" href="index.html">
             <span>
-             Smart Mart
+              Smart Cart
             </span>
           </a>
         </div>
@@ -170,18 +315,11 @@
     </div>
   </section>
 
+
   <!-- end info section -->
 
   <!-- footer section -->
-  <footer class="footer_section">
-    <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
-      </p>
-    </div>
-  </footer>
-  <!-- footer section -->
+  
 
   <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>
