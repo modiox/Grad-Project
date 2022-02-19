@@ -2,6 +2,7 @@ html {
   overflow-x: hidden;
 }
 
+
 body {
   font-family: "Roboto", sans-serif;
   color: #0c0c0c;
@@ -467,13 +468,11 @@ a:focus {
           align-items: center;
   height: 195px;
   border-radius: 5px;
-  padding:100;
 }
 
 .product_section .box .img-box img {
   max-width: 175px;
   max-height: 175px;
-  
 }
 
 .product_section .box .detail-box {
@@ -733,7 +732,7 @@ a:focus {
 }
 
 .contact_section .heading_container {
-  margin-bottom: 50px;
+  margin-bottom: 45px;
 }
 
 .contact_section .row {
@@ -744,15 +743,15 @@ a:focus {
 
 .contact_section .form_container {
   background-color: #4E7F6A;
-  padding: 70px;
+  padding: 45px;
 }
 
 .contact_section .form_container .form-control {
   width: 100%;
   border: none;
-  height: 40px;
-  margin-bottom: 20px;
-  padding-left: 20px;
+  height: 50px;
+  margin-bottom: 15px;
+  padding-left: 15px;
   outline: none;
   color: #101010;
   -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
@@ -790,7 +789,7 @@ a:focus {
   border: none;
   text-transform: uppercase;
   display: inline-block;
-  padding: 10px 45px;
+  padding: 10px 55px;
   background-color: #f89646;
   color: #ffffff;
   border-radius: 0px;
@@ -803,25 +802,157 @@ a:focus {
   background-color: transparent;
   color: #f89646;
 }
-  .Thanx{
-    position:absolute;
-    color: #f89646;
-    font-family: "Roboto", sans-serif;
-    text-align:center;
-    letter-spacing: 2px;
-    line-height: 1;
-    word-spacing: 2.5px;
-    padding-top: 90px;
-    padding-right: 350px;
-    padding-bottom: 50px;
-    padding-left: 400px;
-  }
 
-/* footer section*/
+.contact_section .map_container {
+  height: 100%;
+  min-height: 375px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 0;
+}
+
+.contact_section .map_container .map {
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.contact_section .map_container .map #googleMap {
+  height: 100%;
+}
+
+/* info section */
 .info_section {
   background-color: #274035;
   color: #ffffff;
-  padding: 20px 0 60px 0;
+  padding: 75px 0 60px 0;
 }
 
+.info_section .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info_section .info_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 15px;
+}
+
+.info_section .info_logo .navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+
+.info_section .info_logo .navbar-brand span {
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.info_section .info_contact .link-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+
+.info_section .info_contact .link-box i {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border: 1px solid #f89646;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.info_section .info_contact .link-box:hover span {
+  color: #f89646;
+}
+
+.info_section .info_form {
+  margin-bottom: 35px;
+}
+
+.info_section .info_form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info_section .info_form form input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 45px;
+  border: none;
+  padding-left: 10px;
+}
+
+.info_section .info_form form button {
+  width: 45px;
+  height: 45px;
+  background-color: #f89646;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  margin: 0;
+}
+
+.info_section .social-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.info_section .social-box a {
+  margin: 0 5px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.info_section .social-box a:hover {
+  color: #f89646;
+}
+
+/* end info section */
+/* footer section*/
+.footer_section {
+  position: relative;
+  background-color: #274035;
+  text-align: center;
+}
+
+.footer_section p {
+  color: #ffffff;
+  padding: 20px 0;
+  margin: 0;
+  border-top: 1px solid #ffffff;
+}
+
+.footer_section p a {
+  color: inherit;
+}
 /*# sourceMappingURL=style.css.map */
+
+
