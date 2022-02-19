@@ -2047,6 +2047,14 @@ textarea.form-control {
   margin-right: 0.75rem;
 }
 
+
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
 .form-check-inline .form-check-input {
   position: static;
   margin-top: 0;
