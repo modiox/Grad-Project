@@ -586,6 +586,18 @@ a:focus {
           transform: translateX(-50%);
 }
 
+
+ .check_img{
+ 
+ margin-left: 300px;
+ margin-top: 170px;
+ width: 700px;
+ height: 500px;
+ display:block;
+
+}
+
+
 .blog_section .box {
   margin-top: 55px;
   background-color: #4E7F6A;
