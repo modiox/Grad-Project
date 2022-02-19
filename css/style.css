@@ -588,9 +588,9 @@ a:focus {
 
 
  .check_img{
- 
- margin-left: 300px;
- margin-top: 170px;
+ margin-top: -300px;
+ margin-left: 320px;
+ margin-bottom: 50px;
  width: 700px;
  height: 500px;
  display:block;
@@ -795,6 +795,18 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.Thanx{
+  position: relative;
+  color: #f89646;
+  font-family: "Roboto",sans-serif;
+  text-align:center;
+  letter-spacing: 2px;
+  line-height: 1;
+  word-spacing: 2.5px;
+  padding-bottom: 300px;
+  padding-top: 80px;
 }
 
 .contact_section .form_container .btn_box button {
