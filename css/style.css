@@ -812,8 +812,8 @@ a:focus {
   letter-spacing: 2px;
   line-height: 1px;
   word-spacing: 2.5px;
-  padding-bottom: 300px;
-  padding-top: 200px;
+  padding-bottom: 10px;
+  padding-top: 70px;
 }
 
 
@@ -849,6 +849,19 @@ a:focus {
   color: #ffffff;
   padding: 75px 0 60px 0;
 }
+
+
+.check_img{
+ 
+  margin-left: 320px;
+  margin-top: 20px;
+  width: 700px;
+  height: 500px;
+  display:block;
+  
+ 
+ }
+
 
 .info_section .row {
   -webkit-box-align: center;
