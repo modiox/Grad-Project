@@ -803,6 +803,22 @@ a:focus {
   color: #f89646;
 }
 
+
+.Thanx{
+  position: relative;
+  color: #f89646;
+  font-family: "Roboto",sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 1px;
+  word-spacing: 2.5px;
+  padding-bottom: 300px;
+  padding-top: 200px;
+}
+
+
+
+
 .contact_section .map_container {
   height: 100%;
   min-height: 375px;
