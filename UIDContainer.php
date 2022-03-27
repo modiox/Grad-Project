@@ -1,0 +1,1 @@
+<?php $UIDresult='CC2A6033'; echo $UIDresult; ?> 
